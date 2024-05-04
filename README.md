@@ -1,5 +1,6 @@
 # CTF-Tools
-
+毕业设计里的外置解码小工具
+![1.png](1.png)
 ##### 支持的编码解码:            
 
 - [x] URL
@@ -121,7 +122,7 @@
 
 插件模板
 
-```
+```python
 ######################No UI ##########################
 # 普通函数不打开ui插件
 # def run(source_text,UI_1,UI_2):
@@ -146,6 +147,5 @@ def run(source_text,UI_1,UI_2):
 def ui_2_click(text,key1,key2):
     # 返回结果
     return  "编码结果"
-
 ```
 
